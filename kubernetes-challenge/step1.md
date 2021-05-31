@@ -1,5 +1,3 @@
-
-
 1. Create a pod with image nginx called nginx and expose traffic on port 80 in namespace `challenge`.
 2. Show all running pods in the `challenge` namespace
 3. Get information about the pod, including details about potential issues (e.g. pod hasn't started)
