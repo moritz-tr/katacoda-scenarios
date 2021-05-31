@@ -1,18 +1,18 @@
 {
   "title": "Kubernetes challenge",
-  "description": "Show off you kubernetes skills 🚀",
+  "description": "Show off your kubernetes skills 🚀",
   "difficulty": "Beginner",
   "time": "10 minutes",
   "details": {
     "steps": [
       {
         "title": "Step 1",
-        "text": "step1.md"
+        "text": "step1.md",
+        "code": "launch.sh"
       }
     ],
     "intro": {
-      "text": "intro.md",
-      "code": "launch.sh"
+      "text": "intro.md"
     },
     "finish": {
       "text": "finish.md"
