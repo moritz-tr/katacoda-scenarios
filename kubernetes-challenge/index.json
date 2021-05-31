@@ -2,7 +2,7 @@
   "title": "Kubernetes challenge",
   "description": "Show off your kubernetes skills 🚀",
   "difficulty": "Beginner",
-  "time": "10 minutes",
+  "time": "15 minutes",
   "details": {
     "steps": [
       {
@@ -21,6 +21,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "kubernetes-cluster-running:1.18"
+    "imageid": "minikube-running"
   }
 }
