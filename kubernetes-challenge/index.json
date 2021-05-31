@@ -6,8 +6,9 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
-        "text": "step1.md"
+        "title": "Run a Pod",
+        "text": "step1.md",
+        "code": "launch.sh"
       }
     ],
     "intro": {
