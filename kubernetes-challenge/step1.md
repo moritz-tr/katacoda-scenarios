@@ -8,7 +8,7 @@
 6. kubectl create ns challenge
    1. kubectl run nginx --namespace=challenge --image=nginx --restart=Never --port=80
 7. kubectl get pods -n challenge
-8. kubectl describe po nginx
-9.  kubectl logs nginx
-10. kubectl exec -it nginx -- /bin/sh
+8. kubectl describe po nginx -n challenge
+9.  kubectl logs nginx -n challenge
+10. kubectl exec -n challenge -it nginx -- /bin/sh
 11.  -->
