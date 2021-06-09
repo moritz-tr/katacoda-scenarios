@@ -1,21 +1,15 @@
 {
-  "title": "Node Typescript challenge",
-  "description": "This challenge should show your node and typescript skills.",
-  "difficulty": "Intermediate",
-  "time": "30 minutes",
+  "type": "challenge@0.7",
+  "title": "Challenge Example - Node.js",
+  "description": "",
+  "difficulty": "Beginner",
+  "time": "60 minutes",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
-        "text": "step1.md"
-      },
-      {
-        "title": "Step 2",
-        "text": "step2.md"
-      },
-      {
-        "title": "Step 3",
-        "text": "step3.md"
+        "title": "Task 1 - Fix Tests",
+        "text": "1_task.md",
+        "verify": "1_verify.sh"
       }
     ],
     "intro": {
@@ -24,10 +18,20 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "cheat",
+          "target": "/usr/local/bin/",
+          "chmod": "+x"
+        }
+      ]
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "hidesidebar": true,
+    "uilayout": "vscode-terminal-split"
   },
   "backend": {
     "imageid": "nodejs:12"
